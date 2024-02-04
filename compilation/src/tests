@@ -1,0 +1,4 @@
+void parse_instruction(const char* instruction, char* command, char* arg1, char* arg2, char* arg3) {
+    // Use sscanf to extract components from the instruction
+    sscanf(instruction, "%s %s %s %s", command, arg1, arg2, arg3);
+}

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1707083957 source:c:\users\quent\documents\si3\dump\groscapasse\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+	<ctype.h>
+
+1707067176 c:\users\quent\documents\si3\dump\groscapasse\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1707082869 source:c:\users\quent\documents\si3\dump\groscapasse\dictionary.c
+	<stdio.h>
+	<string.h>
+	"dictionary.h"
+

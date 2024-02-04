@@ -1,0 +1,11 @@
+Notre assembleur ne supporte pas les labels !!!!
+
+
+
+Placez votre fichier en language assembleur dans le dossier, avec le nom:
+
+instructions.s
+
+
+Vous obtiendrez alors:
+instructions.bin

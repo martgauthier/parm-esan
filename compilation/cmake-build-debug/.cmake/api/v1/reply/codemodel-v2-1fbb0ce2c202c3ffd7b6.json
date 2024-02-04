@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/gauth/CLionProjects/codegroscapasse/cmake-build-debug",
-		"source" : "C:/Users/gauth/CLionProjects/codegroscapasse"
+		"build" : "C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug",
+		"source" : "C:/Users/gauth/Documents/3A/arch/parm-esan/compilation"
 	},
 	"version" : 
 	{

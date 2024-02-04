@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="codegroscapasse"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codegroscapasse">
+				<Option output="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/codegroscapasse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 codegroscapasse"/>
+					<CompileFile command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codegroscapasse/fast">
+				<Option output="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/codegroscapasse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 codegroscapasse/fast"/>
+					<CompileFile command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/gauth/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/dictionary.c">
+			<Option target="codegroscapasse"/>
+		</Unit>
+		<Unit filename="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/dictionary.h">
+			<Option target="codegroscapasse"/>
+		</Unit>
+		<Unit filename="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/main.c">
+			<Option target="codegroscapasse"/>
+		</Unit>
+		<Unit filename="C:/Users/gauth/Documents/3A/arch/parm-esan/compilation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
