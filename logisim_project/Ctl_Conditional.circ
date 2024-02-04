@@ -500,6 +500,9 @@ end TCL_Generic;
       <a name="value" val="0x0"/>
       <a name="width" val="11"/>
     </comp>
+    <comp lib="0" loc="(980,120)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(990,120)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
@@ -668,11 +671,12 @@ end TCL_Generic;
     <wire from="(940,620)" to="(1000,620)"/>
     <wire from="(940,760)" to="(1020,760)"/>
     <wire from="(940,900)" to="(1020,900)"/>
-    <wire from="(960,120)" to="(990,120)"/>
+    <wire from="(960,120)" to="(980,120)"/>
     <wire from="(960,1200)" to="(1020,1200)"/>
     <wire from="(960,550)" to="(1020,550)"/>
     <wire from="(960,690)" to="(1020,690)"/>
     <wire from="(960,830)" to="(1020,830)"/>
     <wire from="(960,970)" to="(1020,970)"/>
+    <wire from="(980,120)" to="(990,120)"/>
   </circuit>
 </project>

@@ -142,15 +142,15 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="#BFH-Praktika" name="9"/>
-  <lib desc="file#Ctl_Flags_APSR.circ" name="10"/>
-  <lib desc="file#Ctl_Conditional.circ" name="11"/>
-  <lib desc="file#Ctl_Data_Processing.circ" name="12">
+  <lib desc="file#Ctl_Conditional.circ" name="10"/>
+  <lib desc="file#Ctl_Data_Processing.circ" name="11">
     <tool name="ALU">
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#Ctl_SP_Address.circ" name="13"/>
-  <lib desc="file#Ctl_Load_Store.circ" name="14"/>
+  <lib desc="file#Ctl_SP_Address.circ" name="12"/>
+  <lib desc="file#Ctl_Load_Store.circ" name="13"/>
+  <lib desc="file#Ctl_Flags_APSR.circ" name="14"/>
   <lib desc="file#Ctl_Opcode_Decoder.circ" name="15"/>
   <lib desc="file#Ctl_Shift_Add_Sub_Mov.circ" name="16"/>
   <main name="Controller"/>
@@ -183,7 +183,7 @@ end TCL_Generic;
   <circuit name="Controller">
     <a name="appearance" val="custom"/>
     <a name="circuit" val="Controller"/>
-    <a name="simulationFrequency" val="128.0"/>
+    <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect fill="none" height="320" stroke="#000000" stroke-width="2" width="150" x="60" y="50"/>
       <rect height="20" stroke="none" width="150" x="60" y="350"/>
@@ -446,15 +446,15 @@ end TCL_Generic;
       <a name="size" val="30"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="1" loc="(680,530)" name="OR Gate">
+    <comp lib="1" loc="(700,530)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="10" loc="(920,530)" name="Flags_APSR"/>
-    <comp lib="11" loc="(900,1090)" name="Conditional"/>
-    <comp lib="12" loc="(920,390)" name="Data_Processing"/>
-    <comp lib="13" loc="(990,880)" name="SP_Address"/>
-    <comp lib="14" loc="(920,690)" name="Load_Store"/>
+    <comp lib="10" loc="(900,1090)" name="Conditional"/>
+    <comp lib="11" loc="(920,390)" name="Data_Processing"/>
+    <comp lib="12" loc="(990,880)" name="SP_Address"/>
+    <comp lib="13" loc="(920,690)" name="Load_Store"/>
+    <comp lib="14" loc="(920,530)" name="Flags_APSR"/>
     <comp lib="15" loc="(520,240)" name="Opcode_Decoder"/>
     <comp lib="16" loc="(920,210)" name="Shift_Add_Sub_Mov"/>
     <comp lib="2" loc="(1270,70)" name="Multiplexer"/>
@@ -523,7 +523,7 @@ end TCL_Generic;
     <wire from="(1080,1140)" to="(1080,1340)"/>
     <wire from="(1080,1340)" to="(1120,1340)"/>
     <wire from="(110,530)" to="(110,550)"/>
-    <wire from="(110,550)" to="(690,550)"/>
+    <wire from="(110,550)" to="(710,550)"/>
     <wire from="(110,590)" to="(110,610)"/>
     <wire from="(110,590)" to="(280,590)"/>
     <wire from="(1100,1150)" to="(1100,1300)"/>
@@ -651,15 +651,11 @@ end TCL_Generic;
     <wire from="(610,880)" to="(700,880)"/>
     <wire from="(630,350)" to="(630,540)"/>
     <wire from="(630,350)" to="(940,350)"/>
-    <wire from="(630,540)" to="(650,540)"/>
+    <wire from="(630,540)" to="(670,540)"/>
     <wire from="(650,510)" to="(650,520)"/>
     <wire from="(650,510)" to="(940,510)"/>
-    <wire from="(680,530)" to="(700,530)"/>
-    <wire from="(690,540)" to="(690,550)"/>
-    <wire from="(690,540)" to="(710,540)"/>
-    <wire from="(700,530)" to="(700,550)"/>
-    <wire from="(700,550)" to="(710,550)"/>
-    <wire from="(710,530)" to="(710,540)"/>
+    <wire from="(650,520)" to="(670,520)"/>
+    <wire from="(700,530)" to="(710,530)"/>
     <wire from="(900,1060)" to="(900,1070)"/>
     <wire from="(900,1070)" to="(960,1070)"/>
     <wire from="(900,1090)" to="(910,1090)"/>
