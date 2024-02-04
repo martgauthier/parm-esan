@@ -184,13 +184,13 @@ end TCL_Generic;
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#TTL" name="11"/>
-  <lib desc="file#BancDeRegistres.circ" name="12"/>
-  <lib desc="file#ALU.circ" name="13">
+  <lib desc="file#Controller.circ" name="12"/>
+  <lib desc="file#BancDeRegistres.circ" name="13"/>
+  <lib desc="file#ALU.circ" name="14">
     <tool name="ALU">
       <a name="facing" val="east"/>
     </tool>
   </lib>
-  <lib desc="file#Controller.circ" name="14"/>
   <main name="Facade"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -1619,25 +1619,43 @@ end TCL_Generic;
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 16 16
-b09b b0ff b0f1 2001 9005 9004 2064 9001
-e06f e7fe 9803 2107 1a08 9902 2203 4011
-c9 4308 2101 4081 980d 4308 900d e7fe
-e7fe 9805 2107 1a08 9904 2203 4011 c9
-4308 2101 4081 980d 4308 900d e7fe e7fe
-2001 900e e7fe 9811 2800 d002 e7fe 9812
-9001 e7fe e7fe 9805 2107 1a08 9904 2203
-4011 c9 4308 2101 4081 980d 4388 900d
-e7fe 9801 2871 d103 e7fe 9805 1e40 9005
-e019 9801 2864 d103 e7fe 9805 1c40 9005
-e010 9801 287a d103 e7fe 9804 1e40 9004
-e007 9801 2873 d103 e7fe 9804 1c40 9004
-4*e7fe 9805 2107 4008 9005 9804 2103 4008
-9004 9805 9903 4288 d126 e7fe 9804 9902
-4288 d121 e7fe 980c 1c40 900c e7fe e7fe
-9815 2107 4008 9003 9815 2103 4008 9002
-e7fe 9805 9903 2200 4288 9200 d106 e7fe
-9804 9902 1a40 4241 4148 9000 e7fe 9800
-7c0 2800 d1e3 e7fe e7fe e76e
+b09c b0ff b0f1 e7fe e7fe 2041 900c e7fe
+e7fe 203d 900c e7fe e7fe 2000 9005 e7fe
+e7fe e7fe 9812 2800 d100 e7fe e7f9 e7fe
+9813 9003 9803 9004 9804 280a d100 e7fe
+e015 9804 2830 db03 e7fe 9804 283a db00
+e7fe e7e4 e7fe 9804 900c e7fe 9805 210a
+4341 9105 9804 9905 1808 3830 9005 e7d6
+9805 9002 9802 9006 e7fe 200a 900c 21*e7fe
+206c 900c e7fe e7fe 2069 900c e7fe e7fe
+e7fe 2073 900c e7fe e7fe e7fe 2074 900c
+e7fe e7fe e7fe 2065 900c e7fe e7fe e7fe
+2020 900c e7fe e7fe e7fe 2064 900c e7fe
+e7fe e7fe 2065 900c e7fe e7fe e7fe 2073
+900c e7fe e7fe e7fe 2020 900c e7fe e7fe
+e7fe 2064 900c e7fe e7fe e7fe 2069 900c
+e7fe e7fe e7fe 2076 900c e7fe e7fe e7fe
+2069 900c e7fe e7fe e7fe 2073 900c e7fe
+e7fe e7fe 2065 900c e7fe e7fe e7fe 2075
+900c e7fe e7fe e7fe 2072 900c e7fe e7fe
+e7fe 2073 900c e7fe e7fe e7fe 203a 900c
+e7fe e7fe 2000 9001 e7fe 9801 9906 4288
+da56 e7fe 9806 9901 4 d 9819 9000
+9800 2800 d147 e7fe 9801 900d e7fe 9817
+900b 980b 2800 d104 e7fe e7fe 2030 900c
+e7fe e033 980d 2800 da09 e7fe e7fe 202d
+900c e7fe 980d 4240 900d 9817 900b e7fe
+2000 900a 9009 e7fe 9809 2807 d81d e7fe
+980b 210f 4008 9008 980b 900 900b 980a
+2800 d108 e7fe 9808 2800 d002 e7fe 2001
+900a e7ff e005 e7fe e7fe 9808 3030 900c
+e7fe e7fe 9809 1c40 9009 e7dc e7fe e7fe
+202c 900c e7fe e7fe e7fe 9801 1c40 9001
+e7a2 5*e7fe 200a 900c e7fe e7fe 2073 900c
+e7fe e7fe e7fe 2074 900c e7fe e7fe e7fe
+206f 900c e7fe e7fe e7fe 2070 900c 4*e7fe
+9812 2800 d100 e7fe e7f9 e7fe e7fe 2001
+9010 e7fe e7fd
 </a>
       <a name="dataWidth" val="16"/>
       <a name="label" val="ROMa"/>
@@ -2376,14 +2394,14 @@ e7fe 9805 9903 2200 4288 9200 d106 e7fe
       <a name="label" val="new_Shift"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="12" loc="(990,140)" name="BancRegistre">
+    <comp lib="12" loc="(530,390)" name="Controller">
+      <a name="label" val="Controller_1"/>
+    </comp>
+    <comp lib="13" loc="(990,140)" name="BancRegistre">
       <a name="label" val="Regs_1"/>
     </comp>
-    <comp lib="13" loc="(1080,640)" name="ALU">
+    <comp lib="14" loc="(1080,640)" name="ALU">
       <a name="label" val="ALU_1"/>
-    </comp>
-    <comp lib="14" loc="(530,390)" name="Controller">
-      <a name="label" val="Controller_1"/>
     </comp>
     <comp lib="2" loc="(1090,830)" name="Multiplexer">
       <a name="facing" val="south"/>
